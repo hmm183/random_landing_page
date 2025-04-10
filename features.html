@@ -1,0 +1,139 @@
+<html>
+<head>
+    <title>AI Model Efficiency Optimizer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="logo.jpg" alt="Logo" class="h-10 w-10"/>
+                <span class="ml-2 text-xl font-bold">AI Model Efficiency Optimizer</span>
+            </div>
+            <div class="hidden md:flex space-x-8">
+                <a href="landing_page.html" class="text-gray-800 hover:text-orange-500">Home</a>
+                <a href="features.html" class="text-gray-800 hover:text-orange-500">Features</a>
+                <a href="cost.html" class="text-gray-800 hover:text-orange-500">Pricing</a>
+            </div>
+            <div class="hidden md:flex space-x-4">
+                <a href="cost.html" class="bg-orange-500 text-white px-4 py-2 rounded">Get Started</a>
+                <a href="contactus.html" class="text-orange-500 border border-orange-500 px-4 py-2 rounded">Help</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="relative bg-cover bg-center h-96" style="background-image: url('lr.png');">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="container mx-auto px-4 py-24 text-center relative z-10">
+            <h1 class="text-4xl md:text-5xl font-bold text-white">Optimize Your Models</h1>
+            <p class="text-lg md:text-xl text-white mt-4">Streamline your AI models with cutting-edge compression techniques.</p>
+            <a href="cost.html" class="mt-6 inline-block bg-orange-500 text-white px-6 py-3 rounded">Learn More</a>
+        </div>
+    </section>
+    <!-- Overview of Tools -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Overview of <span class="text-orange-500">Tools</span></h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <h3 class="text-xl font-semibold mb-4">Pruning Tool</h3>
+                    <p class="mb-4">Reduce model size by removing insignificant weights.</p>
+                    
+                </div>
+                <div class="text-center">
+                    <h3 class="text-xl font-semibold mb-4">Quantization Suite</h3>
+                    <p class="mb-4">Optimize with lower precision to save memory while maintaining accuracy.</p>
+                    
+                </div>
+                <div class="text-center">
+                    <h3 class="text-xl font-semibold mb-4">Hyperparameter Tuner</h3>
+                    <p class="mb-4">Find the best hyperparameters for model performance.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Practical Examples -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Practical <span class="text-orange-500">Examples</span></h2>
+            <div class="space-y-8">
+                <div class="flex flex-col md:flex-row items-center">
+                    <img src="tree1.png" alt="Example 1" class="w-full md:w-1/2 rounded-lg shadow-md mb-4 md:mb-0 md:mr-4"/>
+                    <div class="md:w-1/2">
+                        <p class="mb-4">
+                            <strong>Quantization in Image Classification:</strong> A deep learning model for image classification was initially trained with high precision (e.g., FP32). After applying quantization techniques, such as reducing the model to INT8 precision, the model's size was reduced by 75% without significant loss in accuracy. This quantized model was deployed on edge devices, enabling real-time inference while conserving memory and power.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row items-center">
+                    <img src="tree2.png" alt="Example 2" class="w-full md:w-1/2 rounded-lg shadow-md mb-4 md:mb-0 md:mr-4"/>
+                    <div class="md:w-1/2">
+                        <p class="mb-4">
+                            <strong>Pruning for Speech Recognition:</strong> In a speech recognition model, pruning strategies were employed to eliminate unnecessary weights. The resulting pruned model exhibited improved performance, requiring fewer computations and achieving faster inference times. This example highlights how pruning can enhance the efficiency of deep learning models.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row items-center">
+                    <img src="tree3.png" alt="Example 3" class="w-full md:w-1/2 rounded-lg shadow-md mb-4 md:mb-0 md:mr-4"/>
+                    <div class="md:w-1/2">
+                        <p class="mb-4">
+                            <strong>Distillation for Natural Language Processing:</strong> Distillation was used to create a smaller model that mimics the behavior of a larger language model. The distilled model achieved comparable performance with significantly reduced parameters, making it more suitable for deployment on resource-constrained devices.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Benefits of Model Optimization -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Benefits of Model <span class="text-orange-500">Optimization</span></h2>
+            <ul class="list-disc list-inside space-y-4 text-lg">
+                <li>Reduced Latency for Inference</li>
+                <li>Decreased Memory Usage and Bandwidth</li>
+                <li>Enhanced Feasibility for Deployment</li>
+                <li>Increased Model Reliability and Robustness</li>
+            </ul>
+        </div>
+    </section>
+    <!-- Call to Action -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4">Optimize Now</h2>
+            <p class="text-lg mb-8">Take the first step towards improving your model's efficiency with our powerful tools and resources.</p>
+            <a href="cost.html" class="bg-orange-500 text-white px-6 py-3 rounded">Start Now</a>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h3 class="text-lg font-bold">Subscribe to our newsletter</h3>
+                    <form class="flex mt-2">
+                        <input type="email" placeholder="Input your email" class="px-4 py-2 rounded-l bg-gray-800 text-white border border-gray-700"/>
+                        <button type="submit" class="px-4 py-2 bg-orange-500 text-white rounded-r">Subscribe</button>
+                    </form>
+                </div>
+                <div class="text-center md:text-right">
+                    <h3 class="text-lg font-bold">AI Model Optimizer</h3>
+                </div>
+            </div>
+            <div class="mt-8 text-center">
+                <p class="text-sm">© 2024 Brand, Inc. • <a href="#" class="hover:text-orange-500">Privacy</a> • <a href="#" class="hover:text-orange-500">Terms</a> • <a href="#" class="hover:text-orange-500">Sitemap</a></p>
+                <div class="mt-4 flex justify-center space-x-4">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
